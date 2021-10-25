@@ -1,10 +1,11 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   creationTimestamp: null
   name: carts-primary
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: carts-primary
